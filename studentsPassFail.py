@@ -27,3 +27,58 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 # New prediction
 print("Prediction for 5 hours:", model.predict([[5]]))
 
+
+## 📘 Workflow
+
+1. Create student study hours dataset  
+2. Split data into training and testing sets  
+3. Train Logistic Regression model  
+4. Predict student pass or fail result  
+5. Evaluate model accuracy  
+
+---
+
+## 🎯 Why Logistic Regression?
+
+Logistic Regression was selected because the project predicts only two outcomes:
+
+- Pass (1)  
+- Fail (0)  
+
+It is simple, fast, and effective for binary classification problems.  
+The model works well for small datasets and helps beginners understand machine learning classification concepts easily.
+
+---
+
+## 📈 Evaluation
+
+The model performance was evaluated using:
+
+- Accuracy Score  
+- Prediction Results  
+
+---
+
+## 🎓 Target Classes
+
+- Pass  
+- Fail  
+
+Where:
+
+- `1 = Pass`
+- `0 = Fail`
+
+---
+
+## 📌 Learning Outcomes
+
+Through this project, I learned:
+
+- Data preprocessing  
+- Train-test split  
+- Classification algorithms  
+- Logistic Regression model  
+- Model evaluation using accuracy score  
+- Basic machine learning workflow
+
